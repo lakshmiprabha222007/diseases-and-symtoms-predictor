@@ -21,7 +21,7 @@ def load_data():
     data = pd.read_csv("Final_Augmented_dataset_Diseases_and_Symptoms.csv")
     return data
 
-data = load_data()
+data = load_data("Final_Augmented_dataset_Diseases_and_Symptoms.csv)
 
 # ---------------------------
 # Split Features & Target
